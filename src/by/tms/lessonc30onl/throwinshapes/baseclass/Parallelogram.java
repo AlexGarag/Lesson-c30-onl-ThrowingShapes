@@ -1,20 +1,15 @@
 package by.tms.lessonc30onl.throwinshapes.baseclass;
 
-public class Trapezoid extends Shape {
-    private final double widthTrapezoid;
-    private final double depthTrapezoid;
+public class Parallelogram extends Shape {
+    private final double widthParallelogram;
+    private final double depthParallelogram;
 
-    public Trapezoid (double width, double depth) {
-        widthTrapezoid = width;
-        depthTrapezoid = depth;
+    public Parallelogram (double width, double depth) {
+        widthParallelogram = width;
+        depthParallelogram = depth;
     }
 
     public double getAreaBase() {
-        return widthTrapezoid * depthTrapezoid;
-    }
-
-    @Override
-    public double getVolume() {
-        return super.getVolume();
+        return widthParallelogram * depthParallelogram;
     }
 }

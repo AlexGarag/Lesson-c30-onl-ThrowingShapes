@@ -1,4 +1,4 @@
-package by.tms.lessonc30onl.throwinshapes.container;
+package by.tms.lessonc30onl.throwinshapes.boxclass;
 
 import by.tms.lessonc30onl.throwinshapes.baseclass.Shape;
 

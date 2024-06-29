@@ -1,4 +1,4 @@
-package by.tms.lessonc30onl.throwinshapes.body;
+package by.tms.lessonc30onl.throwinshapes.bodyClass;
 
 import by.tms.lessonc30onl.throwinshapes.baseclass.Parallelogram;
 
