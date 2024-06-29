@@ -1,4 +1,4 @@
-package by.tms.lessonc30onl.throwinshapes;
+package by.tms.lessonc30onl.throwinshapes.interfaces;
 
 public interface CapableGivingVolume {
     double getVolume();

@@ -1,14 +1,13 @@
-package by.tms.lessonc30onl.throwinshapes;
+package by.tms.lessonc30onl.throwinshapes.baseclass;
 
-public abstract class SolidOfRevolution extends Shape {
-    private double radius;
+public class SolidOfRevolution extends Shape {
+    private final double radiusSolidOfRevolution;
 
-    public double getRadius() {
-        return radius;
+    public SolidOfRevolution(double radius) {
+        radiusSolidOfRevolution = radius;
     }
 
-    @Override
-    public double getVolume() {
-        return super.getVolume();
+    public double getAreaBase() {
+        return Math.PI * radiusSolidOfRevolution;
     }
 }

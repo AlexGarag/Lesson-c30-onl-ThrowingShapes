@@ -1,11 +1,18 @@
-package by.tms.lessonc30onl.throwinshapes;
+package by.tms.lessonc30onl.throwinshapes.baseclass;
 
-public abstract class Shape implements CapableGivingVolume {
-    private double volume;
+import by.tms.lessonc30onl.throwinshapes.interfaces.CapableGivingVolume;
 
-//    public Shape(double volume) {}
+public class Shape implements CapableGivingVolume {
+    private double volumeShape;
+
+    public Shape(double volume) {
+        volumeShape = volume;
+    }
+
+    public Shape() {
+    }
 
     public double getVolume() {
-        return volume;
+        return volumeShape;
     }
 }
