@@ -12,6 +12,6 @@ public class Cone extends SolidOfRevolution {
 
     @Override
     public double getVolume() {
-        return super.getAreaBase() * height / 3;
+        return getAreaBase() * height / 3;
     }
 }

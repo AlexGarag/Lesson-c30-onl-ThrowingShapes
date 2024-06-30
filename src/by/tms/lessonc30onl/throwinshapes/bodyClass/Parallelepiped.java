@@ -12,6 +12,6 @@ public class Parallelepiped extends Parallelogram {
 
     @Override
     public double getVolume() {
-        return super.getAreaBase() * height;
+        return getAreaBase() * height;
     }
 }

@@ -10,6 +10,6 @@ public class Ball extends SolidOfRevolution {
 
     @Override
     public double getVolume() {
-        return super.getAreaBase() * 4 / 3;
+        return getAreaBase() * 4 / 3;
     }
 }

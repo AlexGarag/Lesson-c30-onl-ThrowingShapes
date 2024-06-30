@@ -12,6 +12,6 @@ public class Cylinder extends SolidOfRevolution {
 
     @Override
     public double getVolume() {
-        return super.getAreaBase() * height;
+        return getAreaBase() * height;
     }
 }
