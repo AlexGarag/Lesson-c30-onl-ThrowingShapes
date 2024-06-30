@@ -11,6 +11,7 @@ public class Box extends Shape {
 
     public boolean add(Shape shape) {
         volumeBox = volumeBox + shape.getVolume();
+//        System.out.println(shape.getClass().getName());
         if (volumeBox > this.getVolume()) {
             return false;
         }
