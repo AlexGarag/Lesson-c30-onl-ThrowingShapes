@@ -3,7 +3,7 @@ package by.tms.lessonc30onl.throwinshapes.baseclass;
 import by.tms.lessonc30onl.throwinshapes.bodyClass.*;
 import by.tms.lessonc30onl.throwinshapes.interfaces.CapableGivingVolume;
 
-public class Shape implements CapableGivingVolume {
+public abstract class Shape implements CapableGivingVolume {
     private double volumeShape;
 
     public Shape(double volume) {
