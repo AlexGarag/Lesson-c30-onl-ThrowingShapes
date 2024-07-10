@@ -3,16 +3,17 @@ package by.tms.lessonc30onl.throwinshapes.boxclass;
 import by.tms.lessonc30onl.throwinshapes.baseclass.Shape;
 
 public class Box extends Shape {
-    private static double volumeBox;
+    private double occupiedVolume;
 
-    public Box(double settingVolume) {
-        super(settingVolume);
+    public Box() {
+        volume = (int) (255 * Math.random());    // assigning the volume of the box randomly (maximum 255)
+        occupiedVolume = 0;
     }
 
     public boolean add(Shape shape) {
-        volumeBox = volumeBox + shape.getVolume();
+        occupiedVolume = occupiedVolume + shape.getVolume();
 //        System.out.println(shape.getClass().getName());
-        if (volumeBox > this.getVolume()) {
+        if (occupiedVolume > this.getVolume()) {
             return false;
         }
         return true;
